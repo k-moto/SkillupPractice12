@@ -33,6 +33,9 @@
 		9F58F46F1FBFBCED00220511 /* ShopTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58F45B1FBFBCED00220511 /* ShopTableView.swift */; };
 		9F58F4701FBFBCED00220511 /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58F45C1FBFBCED00220511 /* ShopTableViewCell.swift */; };
 		9F58F4721FBFBDEE00220511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F58F4711FBFBDEE00220511 /* LaunchScreen.storyboard */; };
+		9F58F4771FBFC30800220511 /* ShopTableViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58F4761FBFC30800220511 /* ShopTableViewCellTest.swift */; };
+		9F58F4791FBFC59700220511 /* MockResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58F4781FBFC59700220511 /* MockResult.swift */; };
+		9F58F47B1FBFC5FA00220511 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F58F47A1FBFC5FA00220511 /* mock.json */; };
 		D17A796F34D6D28772E83A87 /* Pods_SkillupPractice12UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DEE2701FEDEADEC4FFC891 /* Pods_SkillupPractice12UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +95,9 @@
 		9F58F45B1FBFBCED00220511 /* ShopTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableView.swift; sourceTree = "<group>"; };
 		9F58F45C1FBFBCED00220511 /* ShopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
 		9F58F4711FBFBDEE00220511 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F58F4761FBFC30800220511 /* ShopTableViewCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTableViewCellTest.swift; sourceTree = "<group>"; };
+		9F58F4781FBFC59700220511 /* MockResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockResult.swift; sourceTree = "<group>"; };
+		9F58F47A1FBFC5FA00220511 /* mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
 		F49ACF440B0C4ACC4EBE1406 /* Pods-SkillupPractice12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice12.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice12/Pods-SkillupPractice12.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,8 +179,11 @@
 		9F58F4241FBFBC5A00220511 /* SkillupPractice12Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9F58F4251FBFBC5A00220511 /* SkillupPractice12Tests.swift */,
 				9F58F4271FBFBC5A00220511 /* Info.plist */,
+				9F58F47A1FBFC5FA00220511 /* mock.json */,
+				9F58F4781FBFC59700220511 /* MockResult.swift */,
+				9F58F4251FBFBC5A00220511 /* SkillupPractice12Tests.swift */,
+				9F58F4741FBFC2B600220511 /* View */,
 			);
 			path = SkillupPractice12Tests;
 			sourceTree = "<group>";
@@ -287,6 +296,22 @@
 			children = (
 				9F58F45B1FBFBCED00220511 /* ShopTableView.swift */,
 				9F58F45C1FBFBCED00220511 /* ShopTableViewCell.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		9F58F4741FBFC2B600220511 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F58F4751FBFC2D200220511 /* Shop */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F58F4751FBFC2D200220511 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				9F58F4761FBFC30800220511 /* ShopTableViewCellTest.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -433,6 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F58F47B1FBFC5FA00220511 /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +639,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F58F4261FBFBC5A00220511 /* SkillupPractice12Tests.swift in Sources */,
+				9F58F4771FBFC30800220511 /* ShopTableViewCellTest.swift in Sources */,
+				9F58F4791FBFC59700220511 /* MockResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
